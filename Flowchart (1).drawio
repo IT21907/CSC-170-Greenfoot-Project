@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="PJCWL3rtQjephG3srcly">
+    <mxGraphModel dx="2289" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YQMBLSe0WYy_ygpmnFlW-4" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="90" as="sourcePoint" />
+            <mxPoint x="140" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-9" edge="1" parent="1" source="YQMBLSe0WYy_ygpmnFlW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YQMBLSe0WYy_ygpmnFlW-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YQMBLSe0WYy_ygpmnFlW-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Game Start" vertex="1">
+          <mxGeometry height="60" width="100" x="180" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-10" edge="1" parent="1" source="YQMBLSe0WYy_ygpmnFlW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="khGIdetexfxsEFEDSo6q-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YQMBLSe0WYy_ygpmnFlW-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize world:&lt;div&gt;Game State 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-11" edge="1" parent="1" source="khGIdetexfxsEFEDSo6q-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="khGIdetexfxsEFEDSo6q-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Initialize Actors:&amp;nbsp;&lt;div&gt;Floor&amp;nbsp;&lt;/div&gt;&lt;div&gt;Hedgehog&lt;/div&gt;&lt;div&gt;Cactuses&lt;/div&gt;&lt;div&gt;Fruit&lt;/div&gt;&lt;div&gt;Door&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="150" x="155" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-12" edge="1" parent="1" source="khGIdetexfxsEFEDSo6q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="khGIdetexfxsEFEDSo6q-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" value="Player presses start button" vertex="1">
+          <mxGeometry height="70" width="140" x="160" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-13" edge="1" parent="1" source="khGIdetexfxsEFEDSo6q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nebpk4Rd5TYMcsJaNyf9-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Game State:1" vertex="1">
+          <mxGeometry height="90" width="90" x="185" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-28" edge="1" parent="1" source="khGIdetexfxsEFEDSo6q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="khGIdetexfxsEFEDSo6q-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-30" edge="1" parent="1" source="khGIdetexfxsEFEDSo6q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nebpk4Rd5TYMcsJaNyf9-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Does player touch a cactus?" vertex="1">
+          <mxGeometry height="110" width="110" x="555" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-18" parent="1" style="whiteSpace=wrap;html=1;" value="Display: Game over" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="657.5" y="620" as="sourcePoint" />
+            <mxPoint x="725" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-18" edge="1" parent="1" source="khGIdetexfxsEFEDSo6q-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="khGIdetexfxsEFEDSo6q-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Does player collect any berries?" vertex="1">
+          <mxGeometry height="100" width="95" x="562.5" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-26" parent="1" style="whiteSpace=wrap;html=1;" value="Display: You Won!&lt;div&gt;Points: 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="730" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-33" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="410" as="sourcePoint" />
+            <mxPoint x="610" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-30" parent="1" style="whiteSpace=wrap;html=1;" value="Calculate points" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="khGIdetexfxsEFEDSo6q-32" parent="1" style="whiteSpace=wrap;html=1;" value="Display: You Won!&lt;div&gt;Total points:&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-15" edge="1" parent="1" source="nebpk4Rd5TYMcsJaNyf9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nebpk4Rd5TYMcsJaNyf9-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-17" edge="1" parent="1" source="nebpk4Rd5TYMcsJaNyf9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nebpk4Rd5TYMcsJaNyf9-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-20" edge="1" parent="1" source="nebpk4Rd5TYMcsJaNyf9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nebpk4Rd5TYMcsJaNyf9-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="User Moves" vertex="1">
+          <mxGeometry height="60" width="100" x="180" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-7" edge="1" parent="1" source="CPJb3BflQW3isutNCDI0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="khGIdetexfxsEFEDSo6q-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CPJb3BflQW3isutNCDI0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Player reaches door" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-22" edge="1" parent="1" source="nebpk4Rd5TYMcsJaNyf9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nebpk4Rd5TYMcsJaNyf9-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;" value="A key = left" vertex="1">
+          <mxGeometry height="60" width="120" x="35" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-23" edge="1" parent="1" source="nebpk4Rd5TYMcsJaNyf9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="khGIdetexfxsEFEDSo6q-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;" value="D key = right" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-24" edge="1" parent="1" source="nebpk4Rd5TYMcsJaNyf9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nebpk4Rd5TYMcsJaNyf9-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;" value="Space bar = jump" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-27" edge="1" parent="1" source="nebpk4Rd5TYMcsJaNyf9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="khGIdetexfxsEFEDSo6q-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-31" edge="1" parent="1" source="nebpk4Rd5TYMcsJaNyf9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CPJb3BflQW3isutNCDI0-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nebpk4Rd5TYMcsJaNyf9-26" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Does player fall?" vertex="1">
+          <mxGeometry height="100" width="100" x="560" y="830" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
